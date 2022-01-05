@@ -4,6 +4,7 @@ mod strings;
 mod tuples;
 mod types;
 mod vars; // variables file
+mod vectors;
 
 fn main() {
     println!("Hello, world!"); // from here
@@ -13,4 +14,5 @@ fn main() {
     strings::run();
     tuples::run();
     arrays::run();
+    vectors::run();
 }
