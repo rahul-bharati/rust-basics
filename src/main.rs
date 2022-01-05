@@ -1,5 +1,6 @@
 mod print; // print file
 mod strings;
+mod tuples;
 mod types;
 mod vars; // variables file
 
@@ -9,4 +10,5 @@ fn main() {
     vars::run(); // calling var files
     types::run();
     strings::run();
+    tuples::run();
 }
