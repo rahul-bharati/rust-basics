@@ -1,3 +1,4 @@
+mod arrays;
 mod print; // print file
 mod strings;
 mod tuples;
@@ -11,4 +12,5 @@ fn main() {
     types::run();
     strings::run();
     tuples::run();
+    arrays::run();
 }
